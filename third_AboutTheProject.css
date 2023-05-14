@@ -262,6 +262,7 @@ li {
 
 	border: 1px solid #8000FF;
 	transform: rotate(90deg);
+	z-index: 2;
 }
 
 #line-part2 {
@@ -286,6 +287,7 @@ li {
 
 	border: 1px solid #8000FF;
 	box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.7);
+	z-index: 2;
 }
 
 #line-part4 {
@@ -297,6 +299,7 @@ li {
 
 	border: 1px solid #8000FF;
 	box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.7);
+	z-index: 2;
 }
 
 #line-part5 {
@@ -309,6 +312,7 @@ li {
 	border: 1px solid #8000FF;
 	box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.7);
 	transform: rotate(90deg);
+	z-index: 2;
 }
 
 #line-part6 {
@@ -320,6 +324,7 @@ li {
 
 	border: 1px solid #8000FF;
 	box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.7);
+	z-index: 2;
 }
 
 #line-part7 {
@@ -332,6 +337,7 @@ li {
 	border: 1px solid #8000FF;
 	box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.7);
 	transform: rotate(90deg);
+	z-index: 2;
 }
 
 #line-part8 {
@@ -343,6 +349,7 @@ li {
 
 	border: 1px solid #8000FF;
 	transform: rotate(90deg);
+	z-index: 2;
 }
 
 #line1_button1 {
@@ -353,7 +360,7 @@ li {
 	height: 0px;
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
-	z-index: 1;
+	z-index: 2;
 }
 
 #line2_button1 {
@@ -364,7 +371,7 @@ li {
 	height: 0px;
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
-	z-index: 1;
+	z-index: 2;
 }
 
 #line3_button1 {
@@ -375,7 +382,7 @@ li {
 	height: 0px;
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
-	z-index: 1;
+	z-index: 2;
 }
 
 #line4_button1 {
@@ -386,7 +393,7 @@ li {
 	height: 0px;
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
-	z-index: 1;
+	z-index: 2;
 }
 
 #line5_button1 {
@@ -398,7 +405,7 @@ li {
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
     transform: rotate(90deg);
-	z-index: 1;
+	z-index: 2;
 }
 
 #line6_button1 {
@@ -410,7 +417,7 @@ li {
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
     transform: rotate(90deg);
-	z-index: 1;
+	z-index: 2;
 }
 
 #line7_button1 {
@@ -422,7 +429,7 @@ li {
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
     transform: rotate(90deg);
-	z-index: 1;
+	z-index: 2;
 }
 
 #line8_button1 {
@@ -434,7 +441,7 @@ li {
 	border: 1px solid rgba(128, 0, 255, 0.7);
 
     transform: rotate(90deg);
-	z-index: 1;
+	z-index: 2;
 }
 
 #line1_button2 {
