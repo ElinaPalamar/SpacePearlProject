@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+    background-image: url("img/eight_background.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	z-index: 0;
+}
+
+#top_container {
+	height: 78px;
+	width: 100%;
+	border-bottom: 1px solid rgba(127, 0, 255, 0.2);
+	z-index: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#top_SPACE-PEARL_box {
+	position: absolute;
+	width: 201px;
+	height: 30px;
+	left: 115px;
+	top: 25px;
+	line-height: 30px;
+}
+
+#top_SPACE-PEARL {
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+}
+
+li {
+	display: inline-flex;
+}
+
+#top_list {
+	position: absolute;
+	display: inline-flex;
+	right: 52px;
+	font-size: 24px;
+    line-height: 30px;
+	z-index: 4;
+	float: left;
+}
+
+.top_list {
+	margin: 28px 15px;
+	color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 300;
+}
+
+.top_list:hover {
+	color: #c996fc;
+}
+
+#line-right {
+	position: absolute;
+	width: 545px;
+	height: 0px;
+	left: 1040px;
+	top: 351px;
+
+	border: 1px solid rgba(148, 80, 216, 0.2);
+	transform: rotate(90deg);
+	z-index: 1;
+}
+
+#line-part2 {
+    position: absolute;
+	width: 40px;
+	height: 0px;
+	left: 1292px;
+	top: 500px;
+
+	border: 1px solid #8000FF;
+	transform: rotate(90deg);
+    box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.7);
+}
+
+#navContainer {
+    position: absolute;
+    left: 80px;
+    width: 300px;
+    height: 547px;
+    background: rgba(128, 0, 255, 0.1);
+    backdrop-filter: blur(25px);
+}
+
+.smallCOntainer {
+    margin-left: 80px;
+}
+
+.bigGreyText {
+    margin-top: 12px;
+    margin-left: 40px;
+    color: grey;
+    font-weight: 800;
+    font-size: 11px;
+}
+
+li {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.small1 {
+    margin-top: 24px;
+}
+
+#rightContainer {
+    top: 88px;
+    position: absolute;
+    left: 500px;
+    width: 740px;
+    height: 507px;
+}
+
+img {
+    width: 740px;
+}
+
+.noticeGameplayText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.rightSmallText {
+    width: 700px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.3px;
+}
+
+.rightSmallText1 {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.rightSmallText2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rightSmallText3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rightSmallText4 {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.rightSmallText5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.star {
+    width: 10px;
+    height: 10px;
+    background-color: #8000FF;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #8000FF;
+}
+
+.star1 {
+    position: absolute;
+    left: 130px;
+    top: 112px;
+}
+
+.star2 {
+    position: absolute;
+    left: 130px;
+    top: 142px;
+}
+
+.star3 {
+    position: absolute;
+    left: 130px;
+    top: 172px;
+}
+
+.star4 {
+    position: absolute;
+    left: 130px;
+    top: 202px;
+}
+
+.star5 {
+    position: absolute;
+    left: 130px;
+    top: 232px;
+}
+
+.star6 {
+    position: absolute;
+    left: 130px;
+    top: 318px;
+}
+
+.star7 {
+    position: absolute;
+    left: 130px;
+    top: 348px;
+}
+
+.star8 {
+    position: absolute;
+    left: 130px;
+    top: 378px;
+}
+
+.star9 {
+    position: absolute;
+    left: 130px;
+    top: 408px;
+}
+
+.star10 {
+    position: absolute;
+    left: 130px;
+    top: 438px;
+}
+
+.star11 {
+    position: absolute;
+    left: 130px;
+    top: 468px;
+}
+
+.star12 {
+    position: absolute;
+    left: 130px;
+    top: 498px;
+}
+
+.star13 {
+    position: absolute;
+    left: 130px;
+    top: 583px;
+}
+
+body {
+	font-family: 'Orbitron', sans-serif;
+	z-index: 0;
+}

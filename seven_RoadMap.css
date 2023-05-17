@@ -236,31 +236,31 @@ li {
 .grey1 {
     position: absolute;
     left: 195px;
-    top: 175px;
+    top: 185px;
 }
 
 .grey2 {
     position: absolute;
     left: 530px;
-    top: 175px;
+    top: 185px;
 }
 
 .grey3 {
     position: absolute;
     left: 890px;
-    top: 175px;
+    top: 185px;
 }
 
 .grey4 {
     position: absolute;
     left: 360px;
-    top: 375px;
+	top: 388px;
 }
 
 .grey5 {
     position: absolute;
     left: 694px;
-    top: 375px;
+    top: 388px;
 }
 
 .mainBigText {
@@ -310,10 +310,40 @@ li {
     font-size: 13px;
 }
 
+.dscr1 {
+	position: absolute;
+	left: 198px;
+	top: 320px;
+}
+
+.dscr2 {
+	position: absolute;
+	left: 538px;
+	top: 320px;
+}
+
+.dscr3 {
+	position: absolute;
+	left: 892px;
+	top: 320px;
+}
+
+.dscr4 {
+	position: absolute;
+	left: 364px;
+	top: 510px;
+}
+
+.dscr5 {
+	position: absolute;
+	left: 700px;
+	top: 510px;
+}
+
 #contact_text {
     position: absolute;
 	top: 570px;
-	left: 634px;
+	left: 642px;
 	font-weight: 500;
 	color: white;
     z-index: 3;
@@ -328,7 +358,7 @@ li {
 	width: 20px;
 	height: 0px;
 	top: 600px;
-	left: 665px;
+	left: 670px;
 	border: 2px solid white;
 	transform: rotate(45deg);
 
@@ -340,7 +370,7 @@ li {
 	width: 20px;
 	height: 0px;
 	top: 600px;
-	left: 677px;
+	left: 682px;
 	border: 2px solid white;
 	transform: rotate(-45deg);
 
